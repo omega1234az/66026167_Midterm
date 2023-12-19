@@ -40,6 +40,7 @@
     height: 70vh;
     text-align: center;
     justify-content: center;
+
 }
 .container img{
     width: 100px;
@@ -49,6 +50,7 @@
     width: calc(100% / 3);;
     background-color: rgb(206, 169, 73);
     border: solid rgb(192, 66, 66);
+    padding: 10px;
 }
 .ProjectA p{
     color: white;
@@ -56,10 +58,12 @@
 .ProjectB{
     width: calc(100% / 3);;
     background-color: rgb(192, 66, 66);
+    padding: 10px;
 }
 .ProjectC{
     width: calc(100% / 3);;
     background-color: rgb(75, 61, 165);
+    padding: 10px;
 }
 .footer{
     display: flex;
@@ -71,7 +75,7 @@
     border: 5px solid rgb(33, 33, 33);
 }
 .footer img{
-    width: 50px;
-    height: 50px;
-    padding: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
 }
