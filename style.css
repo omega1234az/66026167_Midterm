@@ -37,7 +37,7 @@
 }
 .container{
     display: flex;
-    height: 70vh;
+    height: 90vh;
     text-align: center;
     justify-content: center;
 
@@ -67,7 +67,7 @@
 }
 .footer{
     display: flex;
-    height: 10vh;
+    height: 20vh;
     border: solid black;
     background-color: rgb(85, 82, 79);
     justify-content: center;
