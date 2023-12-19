@@ -1,0 +1,56 @@
+
+.header{
+    height: 150px;
+    width: auto;    
+    background-color: rgb(67, 66, 66);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.header h1{
+    color: aliceblue;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 1%, 40%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+    font-size: 1.25rem;
+}
+.container{
+    display: flex;
+    height: 300px;
+    text-align: center;
+}
+.container img{
+    width: 100px;
+}
+.ProjectA{
+    width: calc(100% / 3);;
+    background-color: rgb(206, 169, 73);
+}
+.ProjectB{
+    width: calc(100% / 3);;
+    background-color: rgb(192, 66, 66);
+}
+.ProjectC{
+    width: calc(100% / 3);;
+    background-color: rgb(75, 61, 165);
+}
