@@ -50,6 +50,9 @@
     background-color: rgb(206, 169, 73);
     border: solid rgb(192, 66, 66);
 }
+.ProjectA p{
+    color: white;
+}
 .ProjectB{
     width: calc(100% / 3);;
     background-color: rgb(192, 66, 66);
